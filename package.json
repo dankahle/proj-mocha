@@ -1,0 +1,36 @@
+{
+  "name": "projmocha",
+  "description": "The best module ever.",
+  "version": "0.0.0",
+  "homepage": "user/repo",
+  "bugs": "user/repo/issues",
+  "license": "MIT",
+  "main": "lib/projmocha.js",
+  "author": {
+    "name": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "user/repo"
+  },
+  "keywords": [],
+  "dependencies": {
+    "lodash": "3.5.0",
+    "q": "1.2.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.1",
+    "gulp": "^3.8.8",
+    "gulp-jshint": "^1.8.4",
+    "gulp-load-plugins": "^0.6.0",
+    "gulp-mocha": "^1.1.0",
+    "gulp-plumber": "^0.6.5",
+    "jshint-stylish": "^0.4.0",
+    "should": "^4.0.4",
+    "sinon": "^1.13.0"
+  },
+  "scripts": {
+    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "gulp test"
+  }
+}
