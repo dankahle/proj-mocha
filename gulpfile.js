@@ -3,6 +3,8 @@
 var gulp   = require('gulp');
 var plugins = require('gulp-load-plugins')();
 
+// gulpfile from generator-node-gulp
+
 var paths = {
   lint: ['./gulpfile.js', './lib/**/*.js'],
   watch: ['./gulpfile.js', './lib/**', './test/**/*.js', '!test/{temp,temp/**}'],
@@ -33,6 +35,6 @@ gulp.task('watch', ['test'], function () {
   gulp.watch(paths.watch, ['test']);
 });
 
-gulp.task('test', ['lint', 'unitTest']);
+gulp.task('test', [/*'lint', */'unitTest']);
 
 gulp.task('default', ['test']);

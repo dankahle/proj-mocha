@@ -2,16 +2,15 @@
   "name": "projmocha",
   "description": "The best module ever.",
   "version": "0.0.0",
-  "homepage": "user/repo",
-  "bugs": "user/repo/issues",
+  "homepage": "http://user/repo",
+  "bugs": "http://user/repo/issues",
   "license": "MIT",
-  "main": "lib/projmocha.js",
   "author": {
-    "name": ""
+    "name": "dank"
   },
   "repository": {
     "type": "git",
-    "url": "user/repo"
+    "url": "http://user/repo"
   },
   "keywords": [],
   "dependencies": {
@@ -19,6 +18,8 @@
     "q": "1.2.0"
   },
   "devDependencies": {
+    "chai": "^2.1.1",
+    "chai-as-promised": "^4.3.0",
     "coveralls": "^2.11.1",
     "gulp": "^3.8.8",
     "gulp-jshint": "^1.8.4",
@@ -26,11 +27,7 @@
     "gulp-mocha": "^1.1.0",
     "gulp-plumber": "^0.6.5",
     "jshint-stylish": "^0.4.0",
-    "should": "^4.0.4",
-    "sinon": "^1.13.0"
-  },
-  "scripts": {
-    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "test": "gulp test"
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
   }
 }

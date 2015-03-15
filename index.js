@@ -1,6 +1,8 @@
 
-var users = require('./userRepo')
 
+var userService = require('./services/userService')
 
-console.log(users[0])
-
+userService.getUsers(function(err, users) {
+	if(err) throw err.message;
+	console.log(users)
+})
