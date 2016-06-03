@@ -14,8 +14,10 @@
   },
   "keywords": [],
   "dependencies": {
+    "concat-stream": "^1.5.1",
+    "express": "^4.13.4",
     "lodash": "3.5.0",
-    "q": "1.2.0"
+    "q": "^1.2.0"
   },
   "devDependencies": {
     "chai": "^2.1.1",
@@ -28,6 +30,7 @@
     "gulp-plumber": "^0.6.5",
     "jshint-stylish": "^0.4.0",
     "sinon": "^1.13.0",
-    "sinon-chai": "^2.7.0"
+    "sinon-chai": "^2.7.0",
+    "supertest": "^1.2.0"
   }
 }

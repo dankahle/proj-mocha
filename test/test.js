@@ -2,7 +2,7 @@ var userService = require('../services/userService'),
 	http = require('http'),
 	stream = require('stream')
 
-describe('misc tests', function () {
+describe.skip('misc tests', function () {
 
 	beforeEach(function () {
 	})
